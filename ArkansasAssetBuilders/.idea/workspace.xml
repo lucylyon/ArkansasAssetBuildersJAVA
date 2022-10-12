@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="ArkansasAssetBuilders:jar" />
@@ -9,7 +12,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="546b539e-aafc-4a87-a1bc-2c025bbd3c50" name="Changes" comment="" />
+    <list default="true" id="546b539e-aafc-4a87-a1bc-2c025bbd3c50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/javafx_sdk_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArkansasAssetBuildersJAVA1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/ArkansasAssetBuildersJAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/ArkansasAssetBuildersJAVA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_base_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_base_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_controls_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_controls_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_fxml_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_fxml_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_graphics_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_graphics_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aab/arkansasassetbuilders/searchAndFilterControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aab/arkansasassetbuilders/searchAndFilterControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ReturnData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ReturnData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aab/arkansasassetbuilders/Search-and-filter-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aab/arkansasassetbuilders/Search-and-filter-screen.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,14 +77,16 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/astoy/Documents/GitHub/ArkansasAssetBuildersJAVA",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lucylyon/Desktop/School/Disco Tray/ArkansasAssetBuildersJAVA/ArkansasAssetBuilders&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\matth\Desktop\Disco Tray\ArkansasAssetBuildersJAVA\ArkansasAssetBuilders\src" />
@@ -71,7 +96,7 @@
       <recent name="C:\Users\astoy\Documents\GitHub\ArkansasAssetBuildersJAVA\ArkansasAssetBuilders\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloApplication">
+  <component name="RunManager" selected="Application.Parser">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aab.arkansasassetbuilders.HelloApplication" />
       <module name="ArkansasAssetBuilders" />
@@ -98,22 +123,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.Parser" />
+      <module name="ArkansasAssetBuilders" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="launcher (1)" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="ArkansasAssetBuilders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="launcher.bat" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="launcher" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="./out/artifacts/ArkansasAssetBuilders_jar" />
-      <option name="PARENT_ENVS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="launcher.bat" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -138,17 +165,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Parser" />
       <item itemvalue="Application.Launcher" />
       <item itemvalue="Application.HelloApplication" />
-      <item itemvalue="Batch.launcher" />
-      <item itemvalue="Batch.launcher (1)" />
       <item itemvalue="JAR Application.ArkansasAssetBuilders.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parser" />
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.HelloApplication" />
         <item itemvalue="JAR Application.ArkansasAssetBuilders.jar" />
-        <item itemvalue="Application.Launcher" />
       </list>
     </recent_temporary>
   </component>

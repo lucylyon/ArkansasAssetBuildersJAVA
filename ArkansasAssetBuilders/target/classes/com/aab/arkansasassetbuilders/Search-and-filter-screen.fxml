@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="608.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <top>
@@ -21,22 +21,31 @@
    <center>
       <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <CheckBox layoutX="507.0" layoutY="156.0" mnemonicParsing="false" text="65 years+" />
-            <CheckBox layoutX="507.0" layoutY="183.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="94.0" text="Dependents" />
-            <CheckBox layoutX="507.0" layoutY="208.0" mnemonicParsing="false" text="Survey Response " />
-            <CheckBox layoutX="510.0" layoutY="233.0" mnemonicParsing="false" text="Paper " />
-            <CheckBox layoutX="512.0" layoutY="258.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="84.0" text="Electronic" />
-            <CheckBox layoutX="511.0" layoutY="289.0" mnemonicParsing="false" text="Total Number of returns" />
-            <CheckBox layoutX="510.0" layoutY="310.0" mnemonicParsing="false" text="Total Number of refunds" />
-            <CheckBox layoutX="510.0" layoutY="339.0" mnemonicParsing="false" text="Total Tax Credit of Interest " />
-            <StackPane layoutX="16.0" layoutY="74.0" prefHeight="446.0" prefWidth="486.0">
-               <effect>
-                  <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
-               </effect>
-            </StackPane>
-            <Text layoutX="37.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File View" wrappingWidth="55.34100341796875" />
-            <Text layoutX="506.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filters " wrappingWidth="47.36444091796875" />
-            <TextField layoutX="492.0" layoutY="36.0" promptText="file(s) " />
+            <VBox layoutX="506.0" layoutY="154.0" prefHeight="275.0" prefWidth="243.0" spacing="10.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Filters " textAlignment="CENTER" wrappingWidth="247.3643798828125" />
+                  <CheckBox mnemonicParsing="false" text="65 years+" />
+                  <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="94.0" text="Dependents" />
+                  <CheckBox mnemonicParsing="false" text="Survey Response " />
+                  <CheckBox mnemonicParsing="false" text="Paper " />
+                  <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="84.0" text="Electronic" />
+                  <CheckBox mnemonicParsing="false" text="Total Number of returns" />
+                  <CheckBox mnemonicParsing="false" text="Total Number of refunds" />
+                  <CheckBox mnemonicParsing="false" text="Total Tax Credit of Interest " />
+               </children>
+            </VBox>
+            <TextField layoutX="555.0" layoutY="41.0" promptText="file name(s)" />
+            <TableView layoutX="10.0" layoutY="72.0" prefHeight="488.0" prefWidth="483.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="65 +" />
+                <TableColumn prefWidth="75.0" text="Dependents" />
+                  <TableColumn prefWidth="75.0" text="File Type" />
+                  <TableColumn prefWidth="75.0" text="Returns" />
+                  <TableColumn prefWidth="75.0" text="... etc" />
+              </columns>
+            </TableView>
+            <TextField layoutX="103.0" layoutY="44.0" promptText="search data" />
+            <Text layoutX="10.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File View" wrappingWidth="60.536712646484375" />
          </children>
       </Pane>
    </center>

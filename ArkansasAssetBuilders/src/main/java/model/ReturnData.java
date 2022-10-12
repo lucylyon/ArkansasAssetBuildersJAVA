@@ -1,6 +1,8 @@
 package model;
+import com.opencsv.CSVParser;
 
 import javafx.beans.property.*;
+
 
 /**
  * ReturnData class

@@ -6,6 +6,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.sql.*;
 
+// what i have done: added maven dependencies
+//
+
 import java.io.IOException;
 
 public class searchAndFilterControler extends Application {
